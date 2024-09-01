@@ -1,0 +1,100 @@
+body{
+    background: gainsboro;
+    margin: 0;
+}
+div{
+    box-sizing: border-box;
+}
+header{
+    background: white;
+    padding: 10px;
+}
+div.post{
+    background: white;
+    margin-top: 10px;
+}
+header h1{
+    margin: 0;
+}
+div.container{
+    width: 600px;
+    margin: auto;
+}
+div.post img{
+    width: 100%;
+}
+div.post h2, div.post p{
+    padding: 10px;
+    margin: 0;
+}
+div.post .post-header div:first-child{
+    display: inline-block;
+    width: 80%;
+}
+div.post .post-header div:last-child{
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    text-align: right;
+    color: grey;
+}
+footer{
+    background: gainsboro;
+    padding: 15px;
+}
+
+
+/*                                      PRUEBA INICIAL MIA CSS
+.photoFeed {
+    background-color: gainsboro;
+    padding: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh; 
+}
+.img1{
+    width: 5px;
+    height: auto;
+}
+.photo1{
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+    width: 650px;
+}
+h1{
+    margin: auto;
+    width: 350px;
+} 
+
+                                        PRUEBA INICIAL MIA HTML
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>4Geeks Academy</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+	<body>
+        <header>
+            <h1>Maria Code Photo Feed</h1>
+        </header>
+        <div  class="photoFeed">
+            <div class="photo1">
+                <div class="photoHeader1">
+                    <span>My first photo</span>
+                    <span>12/14</span>
+                </div>
+                <div class="img1">
+                    <img src="https://imgmedia.elpopular.pe/640x358/elpopular/original/2021/06/03/60b89099938a1d1b6945e962.webp" alt="Perrito">
+                </div>
+                <div class="photoCaption1">
+                    <p>Esta fue la publicación número 1</p>
+                </div>
+            </div> 
+
+        </div>
+	</body>
+</html>
+*/
